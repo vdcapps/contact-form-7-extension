@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.4.2] - 2026-10-15
+
+### Changed
+- `homepage`, `repository` and the README install command now point to the repository's current home, `vdcapps/contact-form-7-extension`.
+
+### Added
+- `displayName` in `plugin.json` and a README note that the project is independent of Contact Form 7, WordPress and Anthropic, ahead of submitting to the Claude plugin directory.
+
 ## [1.4.1] - 2026-10-09
 
 ### Changed

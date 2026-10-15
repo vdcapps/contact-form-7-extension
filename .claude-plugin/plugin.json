@@ -1,6 +1,7 @@
 {
   "name": "cf7-developer-assistant",
-  "version": "1.4.1",
+  "displayName": "CF7 Developer Assistant",
+  "version": "1.4.2",
   "description": "Production-grade Claude Code plugin for WordPress developers & agencies to create, configure, debug, validate, secure, style, audit, test, automate, and integrate Contact Form 7 forms with CRMs, Webhooks, Google Sheets, and CI/CD pipelines.",
   "author": {
     "name": "Optimized Theme",
@@ -45,8 +46,8 @@
       }
     }
   },
-  "homepage": "https://github.com/digeshkapadiya/contact-form-7-extension",
-  "repository": "https://github.com/digeshkapadiya/contact-form-7-extension",
+  "homepage": "https://github.com/vdcapps/contact-form-7-extension",
+  "repository": "https://github.com/vdcapps/contact-form-7-extension",
   "commands": "./commands",
   "userConfig": {
     "wp_site_url": {

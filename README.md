@@ -7,6 +7,8 @@
 
 **CF7 Developer Assistant** is a production-ready Claude Code plugin designed for WordPress developers. It streamlines the creation, configuration, debugging, server-side validation, anti-spam security hardening, and styling of [Contact Form 7 (CF7)](https://contactform7.com/) forms directly from your Claude Code workflow.
 
+> **Independent project.** CF7 Developer Assistant is built by Optimized Theme. It is not affiliated with, endorsed by, or sponsored by Contact Form 7, its author Takayuki Miyoshi, WordPress, or Anthropic. "Contact Form 7" and "CF7" are used only to describe the plugin this tool works with.
+
 ---
 
 ## Features
@@ -122,7 +124,7 @@ export WORDPRESS_APP_PASSWORD="xxxx xxxx xxxx xxxx xxxx xxxx"
 ### Method 0: Marketplace (recommended)
 
 ```text
-/plugin marketplace add digeshkapadiya/contact-form-7-extension
+/plugin marketplace add vdcapps/contact-form-7-extension
 /plugin install cf7-developer-assistant@cf7-developer-tools
 ```
 
