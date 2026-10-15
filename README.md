@@ -68,15 +68,7 @@ contact-form-7/
 
 When you enable the plugin, Claude Code asks for your **site URL**, **username** and **application password** (the password is stored as a sensitive value). You can change them later in `/plugin` → cf7-developer-assistant → Configure options. If you skip this, ask Claude to "add my WordPress site" and it will use the `wp_add_site` tool. Use a staging site first.
 
-Or set environment variables instead:
-
-To connect Claude directly to your live WordPress site, set environment variables:
-
-```bash
-export WORDPRESS_URL="https://your-wordpress-site.com"
-export WORDPRESS_USERNAME="admin"
-export WORDPRESS_APP_PASSWORD="xxxx xxxx xxxx xxxx xxxx xxxx"
-```
+The easiest way is the browser flow: run `/cf7-developer-assistant:connect`, approve the connection in your WordPress admin, and no password is copied anywhere.
 
 ### Available MCP Tools (Complete Suite)
 
@@ -134,21 +126,13 @@ Slash commands: `/cf7-developer-assistant:connect`, `/cf7-developer-assistant:au
 
 ### Method 1: Local Installation in Claude Code
 
-Clone or copy this repository into your workspace or Claude configuration:
+Clone the repository, install the MCP server's dependencies, and load the plugin for a session:
 
 ```bash
-git clone https://github.com/cf7-developer-assistant/cf7-developer-assistant.git contact-form-7
+git clone https://github.com/vdcapps/contact-form-7-extension.git
+cd contact-form-7-extension && npm ci
+claude --plugin-dir .
 ```
-
-In Claude Code, add the plugin to your project or install it directly via the Claude Plugin Manager:
-
-```bash
-claude plugin install ./contact-form-7
-```
-
-### Method 2: Global Configuration
-
-Add the plugin path to your `.claude/config.json` or project settings.
 
 ---
 
