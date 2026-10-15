@@ -7,7 +7,7 @@
 
 **CF7 Form Assistant** is a Claude plugin for WordPress developers and site owners who work with [Contact Form 7 (CF7)](https://contactform7.com/). It helps you build, audit, debug and secure forms: generate forms with matching mail templates, fix email delivery, add validation and spam protection, style forms, and read stored submissions. Its WordPress tools run in Claude Code and connect to your own site.
 
-> **Independent project.** CF7 Form Assistant is built by Optimized Theme. It is not affiliated with, endorsed by, or sponsored by Contact Form 7, its author Takayuki Miyoshi, WordPress, or Anthropic. "Contact Form 7" and "CF7" are used only to describe the plugin this tool works with.
+> **Independent project.** CF7 Form Assistant is built by Viha Digital Commerce. It is not affiliated with, endorsed by, or sponsored by Contact Form 7, its author Takayuki Miyoshi, WordPress, or Anthropic. "Contact Form 7" and "CF7" are used only to describe the plugin this tool works with.
 
 ---
 

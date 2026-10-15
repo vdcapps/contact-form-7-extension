@@ -1,10 +1,10 @@
 # Privacy Policy
 
-**CF7 Form Assistant** (the Claude plugin in this repository) is published by Optimized Theme. This policy explains what the plugin does with data. Last updated: 2026-10-15.
+**CF7 Form Assistant** (the Claude plugin in this repository) is published by Viha Digital Commerce. This policy explains what the plugin does with data. Last updated: 2026-10-15.
 
 ## Summary
 
-The plugin has no servers of its own. It collects no analytics or telemetry, and it sends nothing to Optimized Theme. It talks only to the WordPress site you connect it to.
+The plugin has no servers of its own. It collects no analytics or telemetry, and it sends nothing to Viha Digital Commerce. It talks only to the WordPress site you connect it to.
 
 ## What the plugin accesses
 
