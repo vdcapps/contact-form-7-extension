@@ -1,5 +1,5 @@
 /**
- * Complete MCP Tools Registry for CF7 Developer Assistant (Phase 1, 2, 3, 4)
+ * Complete MCP Tools Registry for CF7 Form Assistant (Phase 1, 2, 3, 4)
  */
 import { z } from 'zod';
 import { WordPressClient } from '../wordpress/client.js';

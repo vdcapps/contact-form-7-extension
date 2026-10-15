@@ -55,7 +55,7 @@ export class CF7FormTester {
                         payload.append(tag.name, '+15550199283');
                         break;
                     case 'textarea':
-                        payload.append(tag.name, 'This is an automated diagnostic test from CF7 Developer Assistant.');
+                        payload.append(tag.name, 'This is an automated diagnostic test from CF7 Form Assistant.');
                         break;
                     case 'select':
                     case 'radio':

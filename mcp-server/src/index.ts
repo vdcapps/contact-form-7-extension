@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * CF7 Developer Assistant MCP Server Entrypoint (Phase 1, 2, 3, 4)
+ * CF7 Form Assistant MCP Server Entrypoint (Phase 1, 2, 3, 4)
  */
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
@@ -16,7 +16,7 @@ async function main() {
   const server = new McpServer(
     {
       name: 'cf7-developer-assistant',
-      version: '1.4.2'
+      version: '1.4.3'
     },
     {
       instructions: [

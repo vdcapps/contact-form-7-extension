@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**CF7 Developer Assistant** (the Claude plugin in this repository) is published by Optimized Theme. This policy explains what the plugin does with data. Last updated: 2026-10-15.
+**CF7 Form Assistant** (the Claude plugin in this repository) is published by Optimized Theme. This policy explains what the plugin does with data. Last updated: 2026-10-15.
 
 ## Summary
 

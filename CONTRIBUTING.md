@@ -1,6 +1,6 @@
-# Contributing to CF7 Developer Assistant
+# Contributing to CF7 Form Assistant
 
-Thank you for your interest in improving **CF7 Developer Assistant**! We welcome community contributions to help WordPress developers build better, safer, and more reliable Contact Form 7 forms.
+Thank you for your interest in improving **CF7 Form Assistant**! We welcome community contributions to help WordPress developers build better, safer, and more reliable Contact Form 7 forms.
 
 ---
 

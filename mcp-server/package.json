@@ -1,6 +1,6 @@
 {
   "name": "cf7-mcp-server",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Model Context Protocol (MCP) server for Contact Form 7 WordPress integration, multi-site management, and agency integrations",
   "main": "dist/index.js",
   "type": "module",
@@ -23,7 +23,7 @@
     "crm-integrations",
     "webhooks"
   ],
-  "author": "CF7 Developer Assistant Team",
+  "author": "CF7 Form Assistant Team",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",

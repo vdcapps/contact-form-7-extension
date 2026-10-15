@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Claude Code plugins for WordPress developers working with Contact Form 7.",
-    "version": "1.4.2"
+    "version": "1.4.3"
   },
   "plugins": [
     {
       "name": "cf7-developer-assistant",
       "source": "./",
-      "version": "1.4.2",
-      "description": "Create, configure, debug, validate, secure, style, audit, test and integrate Contact Form 7 forms, with a live WordPress MCP server.",
+      "version": "1.4.3",
+      "description": "Build, audit, debug and secure Contact Form 7 forms on your WordPress site: generate forms with matching mail templates, fix email delivery, add validation and spam protection, and read stored submissions.",
       "category": "development",
       "keywords": [
         "wordpress",

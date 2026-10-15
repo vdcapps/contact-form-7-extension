@@ -1,4 +1,4 @@
-# CF7 Developer Assistant Testing & QA Checklist
+# CF7 Form Assistant Testing & QA Checklist
 
 Use this comprehensive checklist to validate Contact Form 7 configurations, forms, security rules, email deliverability, and custom PHP hooks.
 

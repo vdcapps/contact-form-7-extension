@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: CF7 Submissions Bridge
- * Description: Stores Contact Form 7 submissions in WordPress and exposes them (plus Flamingo messages) through an authenticated REST API for the CF7 Developer Assistant for Claude.
+ * Description: Stores Contact Form 7 submissions in WordPress and exposes them (plus Flamingo messages) through an authenticated REST API for the CF7 Form Assistant for Claude.
  * Version: 1.0.0
  * Requires at least: 5.6
  * Requires PHP: 7.4

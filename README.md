@@ -1,13 +1,13 @@
-# CF7 Developer Assistant for Claude Code
+# CF7 Form Assistant
 
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet.svg)](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![WordPress Compatibility](https://img.shields.io/badge/WordPress-6.0%2B-blue.svg)](https://wordpress.org)
 [![CF7 Compatibility](https://img.shields.io/badge/Contact%20Form%207-5.7%2B-green.svg)](https://contactform7.com)
 
-**CF7 Developer Assistant** is a production-ready Claude Code plugin designed for WordPress developers. It streamlines the creation, configuration, debugging, server-side validation, anti-spam security hardening, and styling of [Contact Form 7 (CF7)](https://contactform7.com/) forms directly from your Claude Code workflow.
+**CF7 Form Assistant** is a Claude plugin for WordPress developers and site owners who work with [Contact Form 7 (CF7)](https://contactform7.com/). It helps you build, audit, debug and secure forms: generate forms with matching mail templates, fix email delivery, add validation and spam protection, style forms, and read stored submissions. Its WordPress tools run in Claude Code and connect to your own site.
 
-> **Independent project.** CF7 Developer Assistant is built by Optimized Theme. It is not affiliated with, endorsed by, or sponsored by Contact Form 7, its author Takayuki Miyoshi, WordPress, or Anthropic. "Contact Form 7" and "CF7" are used only to describe the plugin this tool works with.
+> **Independent project.** CF7 Form Assistant is built by Optimized Theme. It is not affiliated with, endorsed by, or sponsored by Contact Form 7, its author Takayuki Miyoshi, WordPress, or Anthropic. "Contact Form 7" and "CF7" are used only to describe the plugin this tool works with.
 
 ---
 

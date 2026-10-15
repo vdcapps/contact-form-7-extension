@@ -1,11 +1,17 @@
 # Changelog
 
-All notable changes to the **CF7 Developer Assistant** plugin will be documented in this file.
+All notable changes to the **CF7 Form Assistant** plugin will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+
+## [1.4.3] - 2026-10-15
+
+### Changed
+- Display name is now **CF7 Form Assistant** (the plugin id `cf7-developer-assistant`, install commands and slash commands are unchanged). New WordPress connections show as "Claude CF7 Form Assistant" under Application Passwords.
+- Shorter, plain description for the Claude plugin directory, which also lists the plugin in Cowork and the Claude apps.
 
 ## [1.4.2] - 2026-10-15
 

@@ -9,9 +9,9 @@
 import * as http from 'http';
 import * as crypto from 'crypto';
 import { spawn } from 'child_process';
-// Stable id so WordPress shows one "Claude CF7 Developer Assistant" entry per user.
+// Stable id so WordPress shows one "Claude CF7 Form Assistant" entry per user.
 export const APP_ID = '7d0d3a56-5c1e-4b0a-9f6e-cf7a551a0001';
-export const APP_NAME = 'Claude CF7 Developer Assistant';
+export const APP_NAME = 'Claude CF7 Form Assistant';
 const SUCCESS_PAGE = `<!doctype html><meta charset="utf-8"><title>Connected</title>
 <body style="font-family:system-ui;max-width:32rem;margin:15vh auto;padding:0 1rem;text-align:center">
 <h1>Connected</h1><p>Your WordPress site is linked. You can close this tab and return to Claude Code.</p></body>`;

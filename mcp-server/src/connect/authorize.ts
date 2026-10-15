@@ -11,9 +11,9 @@ import * as http from 'http';
 import * as crypto from 'crypto';
 import { spawn } from 'child_process';
 
-// Stable id so WordPress shows one "Claude CF7 Developer Assistant" entry per user.
+// Stable id so WordPress shows one "Claude CF7 Form Assistant" entry per user.
 export const APP_ID = '7d0d3a56-5c1e-4b0a-9f6e-cf7a551a0001';
-export const APP_NAME = 'Claude CF7 Developer Assistant';
+export const APP_NAME = 'Claude CF7 Form Assistant';
 
 export interface AuthResult {
   siteUrl: string;

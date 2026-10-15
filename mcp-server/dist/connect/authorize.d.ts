@@ -7,7 +7,7 @@
  * nothing has to be copied or pasted.
  */
 export declare const APP_ID = "7d0d3a56-5c1e-4b0a-9f6e-cf7a551a0001";
-export declare const APP_NAME = "Claude CF7 Developer Assistant";
+export declare const APP_NAME = "Claude CF7 Form Assistant";
 export interface AuthResult {
     siteUrl: string;
     username: string;
