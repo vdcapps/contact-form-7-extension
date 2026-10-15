@@ -48,6 +48,9 @@
   },
   "homepage": "https://github.com/vdcapps/contact-form-7-extension",
   "repository": "https://github.com/vdcapps/contact-form-7-extension",
+  "documentationUrl": "https://github.com/vdcapps/contact-form-7-extension#readme",
+  "supportUrl": "https://github.com/vdcapps/contact-form-7-extension/issues",
+  "privacyPolicyUrl": "https://github.com/vdcapps/contact-form-7-extension/blob/main/PRIVACY.md",
   "commands": "./commands",
   "userConfig": {
     "wp_site_url": {

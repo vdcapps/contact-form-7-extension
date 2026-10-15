@@ -188,7 +188,7 @@ When utilizing this plugin:
 
 ## What this plugin does on your computer and your site
 
-Everything it runs, reads, sends and stores:
+Everything it runs, reads, sends and stores (see also the [Privacy Policy](PRIVACY.md)):
 
 * **Network:** requests go only to the WordPress site you connect (REST API: forms, connection check, and stored submissions). Two tools can contact another address, and only when you ask: `cf7_test_integration` with a live request sends a test payload to the webhook URL you configured, and `cf7_test_submission` submits a synthetic entry to your own form. There is no telemetry and no analytics.
 * **Personal data:** `cf7_get_submissions` reads stored form submissions (names, emails, messages) from your site and shows them to Claude. The data stays in your Claude session; nothing is copied elsewhere. Access needs a WordPress Administrator (or Flamingo message editor) connection.
