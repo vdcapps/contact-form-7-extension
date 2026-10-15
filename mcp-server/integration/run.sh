@@ -24,10 +24,11 @@ docker cp "$(pwd)/../wordpress-plugin/cf7-submissions-bridge" "$WP":/var/www/htm
 $WPCLI plugin activate cf7-submissions-bridge
 $WPCLI rewrite structure '/%postname%/' --hard
 APP_PW=$($WPCLI user application-password create admin cf7-it --porcelain)
-export WORDPRESS_URL="http://localhost:$PORT" WORDPRESS_USERNAME=admin WORDPRESS_APP_PASSWORD="$APP_PW"
+cat > integration/.site.json <<JSON
+{"url": "http://localhost:$PORT", "username": "admin", "appPassword": "$APP_PW", "adminPassword": "adminpass"}
+JSON
 if [ -n "${CF7_IT_KEEP:-}" ]; then
-  echo "Site kept running at $WORDPRESS_URL (user admin, app password: $APP_PW). Stop with: docker rm -f $WP $DB; docker network rm $NET"
+  echo "Site kept running at http://localhost:$PORT (details in integration/.site.json). Stop with: docker rm -f $WP $DB; docker network rm $NET"
   exit 0
 fi
-export WORDPRESS_ADMIN_PASSWORD=adminpass
 node --test integration/*.test.mjs

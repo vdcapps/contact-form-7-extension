@@ -8,9 +8,10 @@ import { WordPressClient } from '../dist/wordpress/client.js';
 import { BackupManager } from '../dist/backup/manager.js';
 import { MultiSiteManager } from '../dist/multisite/manager.js';
 import { IntegrationManager } from '../dist/integrations/manager.js';
+import { site } from './site.mjs';
 
-const SITE = process.env.WORDPRESS_URL;
-const ADMIN_PASS = process.env.WORDPRESS_ADMIN_PASSWORD || 'adminpass';
+const SITE = site.url;
+const ADMIN_PASS = site.adminPassword;
 
 /** Minimal cookie-jar "browser" that logs in and approves the authorization request. */
 async function approveInBrowser(approvalUrl) {

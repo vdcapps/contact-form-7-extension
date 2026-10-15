@@ -1,8 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert';
 import { WordPressClient } from '../dist/wordpress/client.js';
+import { site, siteConfig } from './site.mjs';
 
-const client = new WordPressClient();
+const client = new WordPressClient(siteConfig);
 
 test('submissions are stored and readable through Flamingo and the Bridge', async () => {
   const form = await client.createForm({
@@ -14,7 +15,7 @@ test('submissions are stored and readable through Flamingo and the Bridge', asyn
   body.set('your-email', 'ann@example.com');
   body.set('your-message', 'Hello from the integration test');
   body.set('_wpcf7_unit_tag', `wpcf7-f${form.id}-p1-o1`);
-  const res = await fetch(`${process.env.WORDPRESS_URL}/wp-json/contact-form-7/v1/contact-forms/${form.id}/feedback`, { method: 'POST', body });
+  const res = await fetch(`${site.url}/wp-json/contact-form-7/v1/contact-forms/${form.id}/feedback`, { method: 'POST', body });
   assert.ok(res.ok, 'feedback accepted: ' + res.status);
 
   const status = await client.getSubmissionStatus();
@@ -38,6 +39,6 @@ test('submissions are stored and readable through Flamingo and the Bridge', asyn
 });
 
 test('submissions are refused without valid credentials', async () => {
-  const anon = new WordPressClient({ baseUrl: process.env.WORDPRESS_URL, username: 'admin', applicationPassword: 'wrong wrong wrong wrong' });
+  const anon = new WordPressClient({ baseUrl: site.url, username: 'admin', applicationPassword: 'wrong wrong wrong wrong' });
   await assert.rejects(() => anon.listSubmissions({}), /401|403|not authori|permission/i);
 });

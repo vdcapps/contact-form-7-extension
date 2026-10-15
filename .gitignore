@@ -6,3 +6,4 @@ node_modules/
 .DS_Store
 .cf7-sites.json
 .cf7-integrations.json
+mcp-server/integration/.site.json

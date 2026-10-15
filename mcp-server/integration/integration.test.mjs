@@ -2,8 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert';
 import { CF7Analyzer } from '../dist/audit/analyzer.js';
 import { WordPressClient } from '../dist/wordpress/client.js';
+import { site, siteConfig } from './site.mjs';
 
-const client = new WordPressClient();
+const client = new WordPressClient(siteConfig);
 
 test('connects and detects Contact Form 7', async () => {
   const r = await client.checkConnection();
@@ -29,13 +30,13 @@ test('create, get, update and list a form on a real site', async () => {
 test('analyzer works on a form fetched from a real site', async () => {
   const [first] = await client.listForms();
   const form = await client.getForm(first.id);
-  const audit = CF7Analyzer.audit(form, process.env.WORDPRESS_URL);
+  const audit = CF7Analyzer.audit(form, site.url);
   assert.strictEqual(typeof audit.healthScore, 'number');
   assert.ok(Array.isArray(audit.issues));
 });
 
 test('wrong credentials are reported clearly (no misleading PHP fatal advice)', async () => {
-  const bad = new WordPressClient({ baseUrl: process.env.WORDPRESS_URL, username: 'admin', applicationPassword: 'wrong wrong wrong wrong' });
+  const bad = new WordPressClient({ baseUrl: site.url, username: 'admin', applicationPassword: 'wrong wrong wrong wrong' });
   const status = await bad.checkConnection();
   assert.strictEqual(status.connected, true);
   assert.strictEqual(status.authenticated, false, 'bad password must not count as authenticated');
