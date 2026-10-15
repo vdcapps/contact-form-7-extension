@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Reporting a vulnerability
-Email update@optimizedtheme.com with details and reproduction steps. Please do not open public issues for security problems. Expect an acknowledgement within a few days.
+Email apps@vihadigitalcommerce.com with details and reproduction steps. Please do not open public issues for security problems. Expect an acknowledgement within a few days.
 
 ## Credentials
 The site URL, username and Application Password come from the plugin's settings (`/plugin` → cf7-developer-assistant → Configure options, where the password is a sensitive value) or from the browser connect flow. Claude Code passes them to the MCP server; the plugin never reads credentials you already have set on your machine. Use a WordPress Application Password for a dedicated user, never your login password.

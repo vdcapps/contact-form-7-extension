@@ -32,4 +32,4 @@ If you read visitor submissions with this plugin, you are responsible for handli
 
 ## Contact
 
-Questions about this policy: update@optimizedtheme.com, or open an issue at https://github.com/vdcapps/contact-form-7-extension/issues.
+Questions about this policy: apps@vihadigitalcommerce.com, or open an issue at https://github.com/vdcapps/contact-form-7-extension/issues.
